@@ -1,0 +1,17 @@
+{
+  "q1": {
+    "correct": "B",
+    "allowed": [
+      "A",
+      "B"
+    ]
+  },
+  "q2": {
+    "correct": "A",
+    "allowed": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+}
