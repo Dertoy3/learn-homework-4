@@ -1,8 +1,10 @@
 """Готовый общий main. Вызывает классы из соседних модулей."""
+
 import json
 from pathlib import Path
 from quiz_app.quiz import Quiz
 from quiz_app.storage import ResultStorage
+
 
 def main():
     base = Path(__file__).resolve().parent
@@ -23,6 +25,7 @@ def main():
         print("Задание пока не выполнено:", error)
         return 1
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
